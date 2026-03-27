@@ -1,5 +1,11 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Online Outpass System Banner" width="600">
+<pre>
+  ___  _   _ _____ ____   _    ____ ____     ____ __   __ ____ _____ _____ __  __ 
+ / _ \| | | |_   _|  _ \ / \  / ___/ ___|   / ___|\ \ / // ___|_   _| ____|  \/  |
+| | | | | | | | | | |_) / _ \ \___ \___ \   \___ \ \ V / \___ \ | | |  _| | |\/| |
+| |_| | |_| | | | |  __/ ___ \ ___) |___) |   ___) | | |  ___) | | | |___| |  | |
+ \___/ \___/  |_| |_| /_/   \_\____/|____/   |____/  |_| |____/  |_| |_____|_|  |_|
+</pre>
   
   # 🚀 Online Outpass System (PassPortal)
   **Smart Campus Logistics | Secure Digital Gateway | Automated Workflows**
