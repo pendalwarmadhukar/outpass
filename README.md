@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Online Outpass System Banner" width="100%">
+  <img src="assets/banner.png" alt="Online Outpass System Banner" width="600">
   
   # 🚀 Online Outpass System (PassPortal)
   **Smart Campus Logistics | Secure Digital Gateway | Automated Workflows**
