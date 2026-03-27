@@ -1,98 +1,99 @@
-# 🚀 Online Outpass System (PassPortal)
+<div align="center">
+  <img src="assets/banner.png" alt="Online Outpass System Banner" width="100%">
+  
+  # 🚀 Online Outpass System (PassPortal)
+  **Smart Campus Logistics | Secure Digital Gateway | Automated Workflows**
 
-A comprehensive, secure, and digitized platform for managing student out-pass requests, designed for smart campus logistics. This system streamlines the process of applying, verifying, and tracking student movements in real-time.
+  [![GitHub Stars](https://img.shields.io/github/stars/pendalwarmadhukar/outpass?style=for-the-badge&color=8A2BE2)](https://github.com/pendalwarmadhukar/outpass)
+  [![GitHub Forks](https://img.shields.io/github/forks/pendalwarmadhukar/outpass?style=for-the-badge&color=5D3FD3)](https://github.com/pendalwarmadhukar/outpass)
+  [![License](https://img.shields.io/badge/License-ISC-blue?style=for-the-badge&color=6A5ACD)](LICENSE)
+  [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&color=2E8B57)](https://github.com/pendalwarmadhukar/outpass)
 
----
+  <br>
 
-## 🌟 Key Features
+  [**GitHub**](https://github.com/pendalwarmadhukar) • [**Portfolio**](https://github.com/pendalwarmadhukar) • [**LinkedIn**](https://linkedin.com/in/pendalwar-sainath-598169349) • [**Email**](mailto:24j45a6720@mallareddyuniversity.ac.in)
 
-### 🎓 Student Module
-- **Digital Application**: Submit out-pass requests with trip details, duration, and supporting documents.
-- **Real-time Status**: Track the progress of your application from "Pending" to "Approved/Rejected".
-- **History Tracking**: View a complete log of all past out-passes and leave requests.
-- **College Leave**: Dedicated section for official college-related leaves.
-
-### 🛡️ Admin Module
-- **Request Management**: Review, approve, or reject student out-pass requests with a single click.
-- **Comprehensive Reports**: Access detailed analytics and logs of campus movements.
-- **System Dashboard**: High-level overview of active, pending, and completed out-passes.
-
-### 💂 Security Module
-- **Verify Outpasses**: Securely verify students at the gate using digital pass details.
-- **Real-time Logs**: Keep track of students entering and exiting the campus.
+</div>
 
 ---
 
-## 🛠️ Technology Stack
+## 📖 About the Project
 
-| Layer | Technologies |
-|---|-|
-| **Frontend** | React.js (v19), React Router DOM, FontAwesome, Vanilla CSS |
-| **Backend** | Node.js, Express.js |
-| **Database** | MongoDB (Mongoose ODM) |
-| **Security** | JSON Web Tokens (JWT), Bcrypt.js (Password Hashing) |
-| **Features** | Multer (File Uploads), Nodemailer (Email Notifications) |
+The **Online Outpass System (PassPortal)** is a high-tech, digitized solution for campus management. It eliminates the traditional paper-based out-pass system, replacing it with a secure, real-time digital gateway.
+
+Designed with a focus on security, efficiency, and user experience, PassPortal provides a seamless interface for **Students**, **Administrators**, and **Security Staff**.
+
+### 🛠️ Key Features
+
+- 🎓 **Student Dashboard**: Quick applications with digital status tracking.
+- 🛡️ **Admin Portal**: Automated approval workflows and advanced analytics.
+- 💂 **Security Verification**: Instant gate verification using digital records.
+- 📬 **Automated Notifications**: Email alerts for application updates.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Built With
+
+### Frontend Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/FontAwesome-33d?style=for-the-badge&logo=font-awesome&logoColor=white" />
+</p>
+
+### Backend & Database
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" />
+</p>
+
+---
+
+## 📂 Repository Structure
 
 ```text
 outpass/
 ├── frontend/           # React Application
-│   ├── src/
-│   │   ├── components/ # Reusable UI Components
-│   │   ├── pages/      # Main Page Views
-│   │   └── styles/     # CSS Styling
-│   └── package.json
-├── backend/            # Express API
-│   ├── config/         # Database & App Config
-│   ├── models/         # Mongoose Schemas
-│   ├── routes/         # API Endpoints
-│   ├── uploads/        # Stored Documents
-│   └── server.js       # Entry point
-└── README.md           # Documentation
+├── backend/            # Express API & Server
+├── assets/             # Project Images & Banners
+└── README.md           # Professional Documentation
 ```
 
 ---
 
-## 🚀 Getting Started
+## 👩‍🔧 Setup Instructions
 
-### Prerequisites
-- Node.js installed
-- MongoDB (Local or Atlas)
-- `.env` file with necessary credentials
+### 1️⃣ Clone & Install
+```bash
+git clone https://github.com/pendalwarmadhukar/outpass.git
+cd outpass
+cd frontend && npm install
+cd ../backend && npm install
+```
 
-### Installation
+### 2️⃣ Configure Environment
+Create a `.env` file in the `backend/` directory:
+```env
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/pendalwarmadhukar/outpass.git
-   cd outpass
-   ```
+### 3️⃣ Run Locally
+```bash
+# Frontend
+npm run start (in /frontend)
 
-2. **Frontend Setup**:
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
-
-3. **Backend Setup**:
-   ```bash
-   cd ../backend
-   npm install
-   # Create a .env file and add your MONGO_URI, JWT_SECRET, etc.
-   npm start
-   ```
+# Backend
+npm start (in /backend)
+```
 
 ---
 
-## 📝 License
-This project is licensed under the ISC License.
-
----
-
-## 👨‍💻 Developed by
-**Madhukar Pendalwar**
-[GitHub Profile](https://github.com/pendalwarmadhukar)
+<div align="center">
+  <h3>Developed with ❤️ by Madhukar Pendalwar</h3>
+  <p>Building the future of campus logistics.</p>
+</div>
